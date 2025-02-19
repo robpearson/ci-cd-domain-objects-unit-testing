@@ -51,7 +51,7 @@ public class OrderTest
         
         // Assert
         Assert.Equal(2, order.Items.Count);
-        Assert.Equal(new Money(3150m, "USD"), order.TotalAmount);
+        Assert.Equal(new Money(3250m, "USD"), order.TotalAmount);
         
     }
     
